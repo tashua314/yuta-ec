@@ -44,6 +44,12 @@
 
 			<?php endif; ?>
 
+				<?php // メニューが無い場合はメニューバー非表示 ?>
+				<?php if( wp_nav_menu( array(
+					'theme_location'=> 'navigation',
+					'menu_class' => 'no-bullet',
+				))): ?>
+
 				<dt class="nav-button show-for-small-only"><i class="fa fa-bars fa-fw"></i><?php _e('MENU','blanc'); ?></dt>
 				<dd class="menu-wrap">
 					<nav class="clearfix">
@@ -53,6 +59,7 @@
 					)); ?>
 					</nav>
 				</dd>
+				<?php endif; ?>
 			</dl><!-- columns -->
 
 		</div><!-- row -->
