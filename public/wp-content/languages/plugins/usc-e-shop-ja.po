@@ -6319,7 +6319,7 @@ msgstr "配送先電話番号"
 #: extensions/DataListUpgrade/data_list_upgrade.php:1190
 #: extensions/DataListUpgrade/data_list_upgrade.php:1197
 msgid "Shipping Address2"
-msgstr "配送先ビル名"
+msgstr "配送先建物名"
 
 #: functions/datalist.php:754 functions/datalist.php:761
 #: extensions/DataListUpgrade/data_list_upgrade.php:485
@@ -7203,7 +7203,7 @@ msgstr "電話番号"
 #: extensions/DataListUpgrade/data_list_upgrade.php:428
 #: extensions/DataListUpgrade/data_list_upgrade.php:1132
 msgid "building name"
-msgstr "ビル名"
+msgstr "建物名"
 
 #: functions/template_func.php:3010 functions/template_func.php:3034
 #: functions/template_func.php:3184 functions/datalist.php:134

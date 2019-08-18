@@ -1057,7 +1057,7 @@ msgid "numbers"
 msgstr "番地"
 
 msgid "building name"
-msgstr "ビル名"
+msgstr "建物名"
 
 msgid "This mark shows the required items."
 msgstr "このマークは必須項目です。"
@@ -2809,7 +2809,7 @@ msgid "Shipping Address1"
 msgstr "配送先番地"
 
 msgid "Shipping Address2"
-msgstr "配送先ビル名"
+msgstr "配送先建物名"
 
 msgid "Shipping Phone"
 msgstr "配送先電話番号"

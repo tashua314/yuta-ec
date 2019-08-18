@@ -145,7 +145,7 @@ class USCES_GANBARE_TENCHO
 			'注文者住所：都道府県'	=> '', 
 			'注文者住所：市区町村'	=> '', 
 			'注文者住所：番地'		=> '', 
-			'注文者住所：ビル名'	=> '', 
+			'注文者住所：建物名'	=> '',
 			'注文者電話番号'		=> '', 
 			'注文者FAX番号'			=> '', 
 			'送付先名字'			=> '', 
@@ -156,7 +156,7 @@ class USCES_GANBARE_TENCHO
 			'送付先住所：都道府県'	=> '', 
 			'送付先住所：市区町村'	=> '', 
 			'送付先住所：番地'		=> '', 
-			'送付先住所：ビル名'	=> '', 
+			'送付先住所：建物名'	=> '',
 			'送付先電話番号'		=> '', 
 			'決済方法'				=> '', 
 			'配送方法'				=> '', 
@@ -246,7 +246,7 @@ class USCES_GANBARE_TENCHO
 				$ldata['注文者住所：都道府県'] = $data['order_pref'];
 				$ldata['注文者住所：市区町村'] = $data['order_address1'];
 				$ldata['注文者住所：番地'] = $data['order_address2'];
-				$ldata['注文者住所：ビル名'] = $data['order_address3'];
+				$ldata['注文者住所：建物名'] = $data['order_address3'];
 				$ldata['注文者電話番号'] = $data['order_tel'];
 				$ldata['注文者FAX番号'] = $data['order_fax'];
 				
@@ -259,7 +259,7 @@ class USCES_GANBARE_TENCHO
 					$ldata['送付先住所：都道府県'] = $destination_info['msa_pref'];
 					$ldata['送付先住所：市区町村'] = $destination_info['msa_address1'];
 					$ldata['送付先住所：番地'] = $destination_info['msa_address2'];
-					$ldata['送付先住所：ビル名'] = $destination_info['msa_address3'];
+					$ldata['送付先住所：建物名'] = $destination_info['msa_address3'];
 					$ldata['送付先電話番号'] = $destination_info['msa_tel'];
 				}else{
 					$ldata['送付先名字'] = $delivery['name1'];
@@ -270,7 +270,7 @@ class USCES_GANBARE_TENCHO
 					$ldata['送付先住所：都道府県'] = $delivery['pref'];
 					$ldata['送付先住所：市区町村'] = $delivery['address1'];
 					$ldata['送付先住所：番地'] = $delivery['address2'];
-					$ldata['送付先住所：ビル名'] = $delivery['address3'];
+					$ldata['送付先住所：建物名'] = $delivery['address3'];
 					$ldata['送付先電話番号'] = $delivery['tel'];
 				}
 				

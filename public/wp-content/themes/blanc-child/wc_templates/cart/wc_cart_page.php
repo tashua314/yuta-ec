@@ -52,8 +52,11 @@
 			<?php if( usces_is_cart() ) : ?>
 
 			<div id="cart">
-				
-				<div class="upbutton medium-text-right"><?php _e('Press the `update` button when you change the amount of items.','usces'); ?><input name="upButton" type="submit" value="<?php _e('Quantity renewal','usces'); ?>" onclick="return uscesCart.upCart()" class="button tiny black"></div>
+
+				<div class="upbutton medium-text-right">
+					<?php _e('Press the `update` button when you change the amount of items.','usces'); ?><br><br>
+					<input name="upButton" type="submit" value="<?php _e('Quantity renewal','usces'); ?>" onclick="return uscesCart.upCart()" class="button tiny black">
+				</div>
 				
 				<table cellspacing="0" id="cart_table">
 					<thead>
@@ -77,8 +80,9 @@
 					</tr>
 					</tfoot>
 				</table>
-				
+				<!--
 				<p class="currency_code"><?php _e('Currency','usces'); ?> : <?php usces_crcode(); ?></p>
+				-->
 				<?php if( $usces_gp ) : ?>
 				<i class="fa fa-tag fa-fw"></i><?php _e('The price with this mark applys to Business pack discount.','usces'); ?>
 				<?php endif; ?>
