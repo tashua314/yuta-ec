@@ -50,10 +50,6 @@ get_header();
 					<?php the_category(','); ?>
 				</li>
 				<?php endif; ?>
-				<li>
-					<span class="fa-stack text-blue"><i class="fa fa-circle fa-stack-2x fa-blue"></i><i class="fa fa-comment fa-stack-1x fa-inverse"></i></span>
-					<a href="<?php  comments_link(); ?>"><?php comments_number(); ?></a>
-				</li>
 			</ul>
 
 			<?php the_excerpt(); ?>

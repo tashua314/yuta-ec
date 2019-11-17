@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying front-page of blog posts.
+ * サイトのホーム（トップ）ページのテンプレート。
+ * 管理画面の表示設定の「フロントページの表示」が設定してあるときはその設定が優先される。
  * @link 		http://welcustom.net/
  * @author		Mamekko
  * @copyright	Copyright (c) 2015 welcustom.net
@@ -46,10 +47,6 @@ get_header(); ?>
 					<span class="fa-stack text-green"><i class="fa fa-circle fa-stack-2x fa-green"></i><i class="fa fa-folder fa-stack-1x fa-inverse"></i></span>
 					<?php the_category(','); ?>
 				</li>
-				<li>
-					<span class="fa-stack text-blue"><i class="fa fa-circle fa-stack-2x fa-blue"></i><i class="fa fa-comment fa-stack-1x fa-inverse"></i></span>
-					<a href="<?php  comments_link(); ?>"><?php comments_number(); ?></a>
-				</li>
 				<?php endif; ?>
 			</ul>
 			
@@ -72,6 +69,7 @@ get_header(); ?>
 	<div id="sidebar" class="columns large-3">
 		<?php dynamic_sidebar('column-blog'); ?>
 	</div><!-- columns -->
+        <?php [instagram-feed] ?>
 	
 </div><!-- row -->
 

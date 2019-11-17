@@ -31,7 +31,7 @@
 
 	<div class="row">
 		<div class="columns">
-			<p class="font-quicksand text-gray">Copyright&nbsp;&copy;&nbsp;<?php echo date('Y'); ?>&nbsp;Yuta Takahashi, All rights reserved.</p>
+			<p class="font-quicksand text-gray">Copyright&nbsp;&copy;&nbsp;<?php echo date('Y'); ?>&nbsp;mens-beauty-planning.com, All rights reserved.</p>
 			<div class="page-top"><a href="#header"><i class="fa fa-arrow-up fa-lg"></i></a></div>
 		</div>
 	</div><!-- row -->

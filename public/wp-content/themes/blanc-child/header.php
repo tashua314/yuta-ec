@@ -24,11 +24,13 @@
 	<header id="header" class="font-quicksand"<?php if( is_front_page() ){ if( get_header_image() ) { echo ' style="border-bottom: none;"'; } else { echo 'style="margin-bottom: 2rem;"'; } } ?>>
 		<div class="row">
 			<div class="columns large-5 medium-5<?php if( function_exists('usces_the_item') ){ echo ' small-10'; } ?>">
-				<h1><a href="<?php echo esc_url( home_url('/') ); ?>"><?php bloginfo('name'); ?></a></h1>
+				<h1><a href="<?php echo esc_url( home_url('/') ); ?>">
+                                        <?php bloginfo('name'); ?>
+                                </a></h1>
 				<p><?php bloginfo('description'); ?></p>
 			</div><!-- columns -->
 			
-			<?php if( function_exists('usces_the_item') ): ?><!-- menu for Welcart plugin -->
+			<?php if( function_exists('usces_the_item') and false ): ?><!-- menu for Welcart plugin -->
 			<div class="columns large-1 large-push-6 medium-2 medium-push-5 small-2 medium-text-center header-cartbutton">
 				<a href="<?php echo USCES_CART_URL; ?>" title="<?php _e('Shopping Cart','blanc'); ?>">
 					<i class="fa fa-shopping-cart"></i>

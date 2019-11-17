@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying front page.
+ * サイトのホーム（トップ）ページのテンプレート。
+ * 管理画面の表示設定の「フロントページの表示」が設定してあるときに表示される。
  * @link		http://welcustom.net/
  * @author		Mamekko
  * @copyright	Copyright (c) 2015 welcustom.net
@@ -140,10 +141,6 @@ get_header(); ?>
 						<li>
 							<span class="fa-stack text-green"><i class="fa fa-circle fa-stack-2x fa-green"></i><i class="fa fa-folder fa-stack-1x fa-inverse"></i></span>
 							<?php the_category(','); ?>
-						</li>
-						<li>
-							<span class="fa-stack text-blue"><i class="fa fa-circle fa-stack-2x fa-blue"></i><i class="fa fa-comment fa-stack-1x fa-inverse"></i></span>
-							<a href="<?php  comments_link(); ?>"><?php comments_number(); ?></a>
 						</li>
 						<?php endif; ?>
 					</ul>
